@@ -1,0 +1,27 @@
+# Python Ortam Dosyaları ve Cache Yapıları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# Çevre Değişkenleri ve Sırlar (En Kritik Siber Güvenlik Katmanı)
+.env
+.env.*
+*.env
+
+# Yerel Veritabanı ve Docker Veri Klasörleri
+cloudtrim.db
+data/
+
+# IDE ve Editör Kalıntıları
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker Logları
+*.log
